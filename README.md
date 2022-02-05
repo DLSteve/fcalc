@@ -32,13 +32,13 @@ GOOS=windows GOARCH=amd64 go build -o build/fcalc.exe main.go
 **Compile for macOS x64**
 
 ```bash
-GOOS=darwin GOARCH=amd64 go build -o bin/fcalc main.go
+GOOS=darwin GOARCH=amd64 go build -o build/fcalc main.go
 ```
 
 **Compile for Linux x64**
 
 ```bash
-GOOS=linux GOARCH=amd64 go build -o bin/fcalc main.go
+GOOS=linux GOARCH=amd64 go build -o build/fcalc main.go
 ```
 
 ## Unit Tests
